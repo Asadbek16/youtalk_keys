@@ -1,0 +1,756 @@
+/* montserrat-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/montserrat-v25-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/montserrat-v25-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserrat-v25-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+
+  .container-2 {
+    width: 690px;
+  }
+
+.menu-2 {
+    padding-left: 1px;
+    padding-bottom: 54px;
+}
+
+.blog__item-autor-2 {
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.title__mini {
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.list_item {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+
+.list__item-2 {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+pre {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 14p
+}
+
+.title__middle {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+
+.text__item {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text {
+    padding-bottom: 40px;
+}
+
+.sitata {
+    height: 162px;
+    width: 690px;
+    background-color: #F3F7FE;
+    padding: 24px 24px 24px 24px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+}
+
+.kavichka {
+    position: absolute;
+    z-index: 4;
+}
+
+.sitat__text {
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.autor__sitat {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.title__middle-2 {
+    padding-bottom: 24px;
+}
+
+.list__item-3 {
+    display: flex;
+    align-items: start;
+    gap: 32px;
+}
+
+.content_card-2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #868686;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.sitata-2 {
+    height: 162px;
+    width: 690px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding: 24px 104px 48px 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.center__svg {
+    position: absolute;
+    z-index: -4;
+    margin-top: 24px;
+}
+
+.sitat__text-2 {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.autor__text {
+    display: flex;
+    gap: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.autor__text-item {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.sitata-3 {
+    height: 224px;
+    width: 690px;
+    background-color: #FEFAEC;
+    padding: 24px 24px 24px 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+}
+
+.blok {
+    display: flex;
+    gap: 24px;
+}
+
+.blok__item-img {
+    padding-bottom: 24px;
+}
+
+.spark {
+    display: flex;
+    justify-content: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.sitatat-4 {
+    height: 224px;
+    width: 690px;
+    background-color: #03B2A51A;
+    padding: 24px 24px 24px 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    border-radius: 16px;
+}
+
+
+.bloks__element {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.element__items {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2963A3;
+}
+
+.bloks {
+    padding-bottom: 48px;
+}
+
+.card-1 {
+    position: absolute;
+    width: 282px;
+    height: 488px;
+    background-color: rgb(230, 240, 253);
+    justify-content: end;
+    margin-top: 88px;
+    right: 12vmax;
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+}
+
+.card__1-title {
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 27px;
+    padding-bottom: 11px;
+    color: rgb(51, 51, 51);
+}
+
+.card__1-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    padding-bottom: 24px;
+}
+
+.card-1__button {
+    background-color: #35B3A9;
+    color: #FFFFFF;
+    width: 234px;
+    height: 48px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.card-2 {
+    width: 282px;
+    height: 481px;
+    border: 1px solid #333333B3;
+    border-radius: 16px;
+    text-align: center;
+    padding: 24px;
+    padding-right: 8px;
+    margin-top: 624px;
+    right: 12vmax;
+    position: absolute;
+    justify-content: end;
+}
+
+.card__1-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.point {
+   margin-bottom: 8px;
+}
+
+.chat {
+    position: absolute;
+    text-align: start;
+}
+
+.card__2-name {
+    padding-top: 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card__2-work {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.staj__years {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+.card3 {
+    position: absolute;
+    height: 292px;
+    width: 282px;
+    background-color: #2963A3;
+    border-radius: 16px;
+    margin-top: 1140px;
+    right: 12vmax;
+}
+
+.boom {
+    position: absolute;
+    top: 0;
+}
+
+.podark {
+    position: absolute;
+    top: 30px;
+}
+
+.card-3__title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 60px;
+    color: white;
+}
+
+.card4 {
+    position: absolute;
+    height: 304px;
+    width: 282px;
+    border: 1px solid #333333B3;
+    border-radius: 16px;
+    padding: 34px;
+    margin-top: 1500px;
+    right: 12vmax;
+}
+
+.card__4-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2963A3;
+    padding-bottom: 16px;
+}
+
+.card__4-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.card__4-cost {
+    padding-top: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.card__4-button {
+    background-color: #35B3A9;
+    color: #FFFFFF;
+    width: 108px;
+    height: 48px;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.card__4-img {
+    position: absolute;
+    margin-right: 150px;
+    top: 0;
+    left: 2px;
+}
+
+.back__petno {
+    position: absolute;
+    margin-top: 2200px;
+    right: 0vmax;
+}
+
+.container-3 {
+    display: flex;
+    gap: 302px;
+    height: 510px;
+    width: 1220px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 73px;
+}
+
+.container__3-item {
+    width: 349px;
+}
+
+.container__3-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 56px;
+    padding-bottom: 24px;
+}
+
+.container-3__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333333;
+}
+
+.container__3-buttom {
+    background-color: #35B3A9;
+    color: #FFFFFF;
+    width: 238px;
+    height: 59px;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+}
+
+.container__3-img {
+    padding-bottom: 99px;
+}
+
+.rek {
+    display: none;
+}
+
+.rek-2 {
+    display: none;
+}
+
+.menu-item1 {
+    display: none;
+}
+
+.kotorie {
+    display: none;
+}
+/* end */
+
+@media screen and (max-width: 1024px) {
+    .container-2 {
+        margin-left: 32px;
+    }
+
+    .card-1 {
+        right: 0vmax;
+    }
+
+    .card-2 {
+        right: 0vmax;
+    }
+
+    .card3 {
+        right: 0vmax;
+    }
+
+    .card4 {
+        right: 0vmax;
+    }
+    
+    .back__petno {
+        display: none;
+    }
+
+    .container-3 {
+        display: none;
+    }
+
+    .bloks {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    hr {
+        display: none;
+    }
+    .rek {
+        margin-top: 23px;
+        margin-bottom: 36px;
+        display: flex;
+        justify-content: space-around;
+        gap: 16px;
+    }
+
+    .card-1 {
+        height: 481px;
+        width: 356px;
+        position: static;
+        margin: 0;
+    }
+
+    .card-2 {
+        height: 481px;
+        width: 356px;
+        position: static;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+    .rek-2 {
+        display: flex;
+        justify-content: space-around;
+        gap: 16px;
+        margin-bottom: 59px;
+    }
+
+    .card3 {
+        position: static;
+        height: 242px;
+        width: 356px;
+        margin: 0;
+    }
+
+    .card4 {
+        position: static;
+        height: 242px;
+        width: 356px;
+        margin: 0;
+
+    }
+
+    .boom {
+        top: 5294px;
+        left: 44px;
+    }
+
+    .podarkii {
+        position: absolute;
+        top: 5311px;
+        left: 8px;
+    }
+
+    .cards__not {
+        display: none;
+    }
+
+    .card__4-img {
+        position: absolute;
+        margin-right: 150px;
+        top: 5242px;
+        left: 476px;
+    }
+
+    .card-3__title-br {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 415px) {
+    .container-2  {
+        width: 414px;
+        margin-left: 18px;
+        margin-right: 0;
+    }
+
+    .container {
+        width: 414px;
+        
+    }
+
+    .menu {
+        padding-right: 1px;
+    }
+
+    .spark {
+        width: 374px;
+    }
+
+    .text {
+        width: 374px;
+    }
+
+    .title__middle  {
+        width: 374px;
+    }
+
+    .menu-item0 {
+        display: none;
+    }
+
+    .menu-item1 {
+        display: inline;
+    }
+
+    .list__title {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .again {
+        width: 374px;
+        height: 207px;
+    }
+
+    .title__mini {
+        width: 374px;
+    }
+
+    .list {
+        padding-left: 0;
+        margin: 0;
+        width: 374px;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    .kotorie {
+        display: inline;
+    }
+
+    .sitata {
+        width: 374px;
+        height: 218px;
+    }
+
+    .content__name {
+        height: 207px;
+        width: 374px;
+    }
+
+    .sitat__text {
+        font-size: 14px;
+    }
+
+    .sitata-2{
+        margin-top: 60px;
+        margin-bottom: 60px;
+        width: 374px;
+        height: 144px;
+    }
+
+    .autor__text {
+        display: block;
+        width: 374px;
+        padding-left: 1px;
+    }
+
+    .content_card-2 {
+        width: 374px;
+    }
+
+    .autor__img {
+        width: 380px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .lfkgjh {
+        width: 380px;
+    }
+
+    .sitata-3 {
+        width: 374px;
+        height: 328px;
+    }
+
+    .list2 {
+        width: 374px;
+    }
+
+    .autor__text-item {
+        width: 374px;
+    }
+
+    .text__item {
+        width: 374px;
+    }
+
+    .blok {
+        display: block;
+    }
+    
+    .blok__item {
+        margin-bottom: 24px;
+    }
+
+    .sitatat-4 {
+        width: 374px;
+        height: 328px;
+    }
+
+    .rek {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .rek-2 {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .card-1,
+    .card3 {
+        margin-bottom: 24px;
+    }
+
+    .podarkii {
+        position: absolute;
+        top: 7515px;
+        left: 21px;
+    }
+
+    .boom {
+        top: 7509px;
+        left: 44px;
+    }
+
+    .card__4-img {
+        position: absolute;
+        margin-right: 150px;
+        top: 7714px;
+        left: 93px;
+    }
+
+
+}
